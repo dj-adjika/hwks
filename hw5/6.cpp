@@ -84,8 +84,8 @@ int main() {
 
     printTree(head);
     std::println("Mirrorized:");
-    //mirrorize(&head);
-    rec_mirrorize(head);
+    mirrorize(head);
+    //rec_mirrorize(head); // рекурсивный обход
     printTree(head);
 
     deleteTree(head);
